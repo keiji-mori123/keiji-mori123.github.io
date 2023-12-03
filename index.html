@@ -9,6 +9,20 @@
     <link rel="icon" href="img/3.ico">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var scrollToTopButton = document.querySelector('.scroll-to-top');
+
+            scrollToTopButton.addEventListener('click', function (event) {
+                event.preventDefault();
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -119,7 +133,6 @@
                 </div>
                 <div id="info" class="info">
                     <p>
-
                         wakecho izumisi osakafu<br>
                         Japan 000-0000
                     </p>
@@ -127,6 +140,7 @@
                 </div>
             </div>
             <p class="copyright">&copy; 2023 O-DAN inc.</p>
+            <a class="scroll-to-top" href="#header">TOPに戻る</a>
         </div>
     </footer>
 </body>
