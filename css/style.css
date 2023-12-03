@@ -368,6 +368,10 @@ footer
 #footer .scroll-to-top {
     display: inline-block; /* リンクをブロック要素から行内要素に変更 */
     color: #000; /* リンクの色を黒に変更 */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
 }
 
 /*-------------------------------------------
