@@ -221,13 +221,14 @@ Business
 
 #business .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0 10%;
 }
 
 #business .flex .left {
     width: 46%;
     margin-top: 100px;
+    margin-right: 4%; /* 左に寄せるためにmargin-rightを追加 */
 }
 
 #business .flex .right {
