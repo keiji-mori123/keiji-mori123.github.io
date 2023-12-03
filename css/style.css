@@ -249,6 +249,11 @@ Business
     position: relative;
 }
 
+#business .flex .item a {
+    color: white;         /* テキストの色を白に設定 */
+    text-decoration: underline; /* 下線を引く */
+}
+
 /*
 疑似要素でタイトルの横線を引く
 */
@@ -337,7 +342,7 @@ Company
 footer
 -------------------------------------------*/
 #footer {
-    background-color: #666666;
+    background-color: white;
     padding-bottom: 20px;
 }
 
@@ -354,6 +359,10 @@ footer
 
 #footer .copyright {
     font-size: 0.625rem;
+}
+
+#footer {
+    color: black;  /* フッターテキストの色を黒に設定 */
 }
 
 /*-------------------------------------------
